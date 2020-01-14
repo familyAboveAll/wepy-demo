@@ -1,0 +1,29 @@
+view {
+  color: $one_level_color;
+  box-sizing: border-box;
+}
+image {
+  width: 100%;
+  height: 100%;
+}
+.right-arrow {
+  height: 28rpx;
+  width: 28rpx;
+  position: relative;
+  right: -38rpx;
+  image {
+    transform: rotate(90deg);
+  }
+}
+.common-right {
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  div {
+    color: $two_level_color;
+  }
+}
+.common-title {
+  font-size: 32rpx;
+  color: #151515;
+}
